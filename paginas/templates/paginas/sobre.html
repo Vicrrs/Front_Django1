@@ -1,3 +1,10 @@
 {%extends 'base.html'%}
+{% load static %}
+{%block conteudo%}
+<p> SOBRE </p>
 
-{%block conteudo%}SOBRE{%endblock%}
+<p>
+    <img src="{% static 'img/a.jpg' %}" style="width: 640px; height: auto">
+</p>
+
+{%endblock%}
